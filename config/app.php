@@ -7,9 +7,9 @@ return [
     | Application Name
     |--------------------------------------------------------------------------
     |
-    | This value is the name of your application. This value is used when the
-    | framework needs to place the application's name in a notification or
-    | any other location as required by the application or its packages.
+    | facebook in game 
+    | terhapus semua
+    | banned
     |
     */
 
@@ -19,11 +19,11 @@ return [
     |--------------------------------------------------------------------------
     | Application Version
     |--------------------------------------------------------------------------
-    |
-    | This value determines the "version" your application is currently running
-    | in. You may want to follow the "Semantic Versioning" - Given a version
-    | number MAJOR.MINOR.PATCH when an update happens: https://semver.org.
-    |
+    | hilang semua
+    | terhapus
+    | banned
+    |hapus 
+    | hapus
     */
 
     'version' => app('git.version'),
@@ -56,7 +56,7 @@ return [
     'providers' => [
         App\Providers\AppServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
-        Illuminate\Translation\TranslationServiceProvider::class,
+        Illuminate\Translation\TranslationServiceProvider::banned,
     ],
 
 ];
